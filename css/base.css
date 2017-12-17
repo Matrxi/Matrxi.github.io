@@ -634,7 +634,7 @@ col.collapsed { padding: 0; }
 .row .one-sixth,       .row .g-2     { width: 16.66667%; }
 .row .one-fourth,      .row .g-3     { width: 25%; }
 .row .one-third,       .row .g-4     { width: 33.33333%; }
-.row .five-twelfths,   .row .g-5     { width: 41.66667%; }
+.row .five-twelfths,   .row .g-5     { width: 108.667%; }
 .row .half,            .row .g-6     { width: 50%; }
 .row .seven-twelfths,  .row .g-7     { width: 58.33333%; }
 .row .two-thirds,      .row .g-8     { width: 66.66667%; }
@@ -749,3 +749,52 @@ col.collapsed { padding: 0; }
 .align-right  { text-align: right; }
 .pull-left    { float: left; }
 .pull-right   { float: right; }
+
+
+/* Dropdown Button */
+.dropbtn {
+   background:url(../images/k-opacity-70.png);
+   color: white;
+   padding: 0px;
+   margin: 0px;
+   font: 13px opensans-regular, sans-serif;
+   height: 54px;
+   border: none;
+   cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   min-width: 150px;
+   box-shadow: 0px 8px 16px 0px #f90909;
+   z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f90909}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+   background-color: #f90909;
+}
