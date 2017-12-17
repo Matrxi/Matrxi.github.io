@@ -28,8 +28,8 @@
    });
 
    // add address markers
-   map.addMarker({ lat: 30.273423, lng: 77.999822, title: 'Eco Tower',
-   infoWindow: { content: '<p>You can add your address 1 here</p>' } });
+   map.addMarker({ lat: 30.273423, lng: 77.999822, title: 'Graphic Era Hill University',
+   infoWindow: { content: '<p>Graphic Era Hill University,</br>Society Area, Clement Town Dehradun,</br>248002</p>' } });
 
 /*----------------------------------------------------*/
 /*	contact form
