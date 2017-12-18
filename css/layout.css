@@ -108,13 +108,13 @@ header .logo a {
    display: block;
    padding: 0;
    margin: 0;
-   height: 58px;
-   width: 69px;
+   height: 18px;
+   width: 91px;
    line-height: 18px;
 
    position: absolute;
    left: 12px;
-   top: -4px !important;
+   top: -4px;
 }
 
 /* primary navigation
@@ -151,7 +151,6 @@ ul#nav li {
    display: inline-block;
 }
 ul#nav > li.active a {
-   background: #f90909;
    color: #fff !important;
 }
 
