@@ -180,13 +180,20 @@ ul#nav li.active a { color: #f90909; }
 /* ================================================================== */
 
 /* c. Intro Section
-
+no-repeat center;
+   overflow: hidden;
+   opacity: 0.9;
 /* ================================================================== */
 
 #intro {
-   background: #151C26 url(../images/intro-bg.jpg) no-repeat center;
-   overflow: hidden;
-   opacity: 0.9;
+   background: #151C26 url(../images/intro-bg.jpg) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+z-index: 0;
+	   
 }
 
 /* FlexSlider Intro Slider Styles */
