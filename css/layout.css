@@ -1,7 +1,7 @@
 /*
 =====================================================================
-*   HACKERS DAY v1.0.1 Layout Stylesheet
-*   url: styleshout.com
+*   HACKERS DAY DEHRADUN v1.0.1 Layout Stylesheet
+*   url: hackersdaydehradun.org
 *   15-12-2017
 =====================================================================
 
@@ -1605,3 +1605,4 @@ footer .social-links li:first-child { margin-left: 0; }
    }
 
 }
+#contact .process-wrap .col h3{color : #f90909;}
