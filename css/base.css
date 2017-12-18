@@ -797,5 +797,5 @@ col.collapsed { padding: 0; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-   background:url(../images/k-opacity-70.png);
+   background-color: #0B0C0D;
 }
