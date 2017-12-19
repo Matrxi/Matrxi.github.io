@@ -15,7 +15,7 @@ c. Default Styles
    4. Images
    5. Buttons
    6. Forms
-d. Grid
+d. Gridmedia
 e. Others
    1. Clearing
    2. Misc
@@ -437,10 +437,6 @@ dd { margin: 0 0 0 20px; }
 
 /*  5. Images  --------------------------------------------------------- */
 
-img {
-   max-width: 100%;
-   height: auto;
-}
 
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
@@ -807,9 +803,7 @@ figure.snip1477 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: left;
-  overflow: hidden;
-  min-width: 230px;
-  max-width: 100%;
+  overflow: inherit;
   width: 100%;
   color: #ffffff;
   text-align: center;
@@ -829,13 +823,14 @@ figure.snip1477 img {
   backface-visibility: hidden;
   vertical-align: top;
   opacity: 0.9;
+
 }
 figure.snip1477 .title {
   position: absolute;
-  top: 65%;
+  top: 73%;
   left: 42%;
   width: 14.5%;
-  height: 31%;
+  height: 16.5%;
   padding: 5px 10px 10px;
 }
 figure.snip1477 .title:before,
